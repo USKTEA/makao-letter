@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@media only screen and (max-width: 600px) {
+  .button {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    height: 22vw;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  h1 {
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 10vw;
+  }
+
+  .slogan {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70vw;
+    width: 100%;
+  }
+
+  .decoration {
+    position: absolute;
+    top: -13vw;
+    left: 40vw;
+    height: 70vw;
+    width: 100%;
+    background: url(../src/whale.png) no-repeat 0 50% / contain;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 6vw;
+    line-height: 10vw;
+    text-align: center;
+    padding-top: 7vw;
+    height: 28vw;
+    width: 100%;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    background-color: #4493fb;
+    z-index: 2;
+  }
+
+  .title strong {
+    font-size: 6vw;
+    display: block;
+  }
+
+  .news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 5vw;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    border: 1px solid black;
+    border-top: none;
+  }
+
+  .news-list {
+    height: 100vw;
+    border-bottom: 1px solid black;
+  }
+
+  .news-list:last-child {
+    border-bottom: none;
+  }
+
+  .news-anchor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5vw 5vw;
+  }
+
+  .news-title {
+    font-size: 6vw;
+    margin-bottom: 3vw;
+  }
+
+  .news-content {
+    justify-self: flex-end;
+    font-size: 4vw;
+  }
+
+  .news-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .button {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    height: 7em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  h1 {
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+  }
+
+  .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 24em;
+    width: 100%;
+  }
+
+  .decoration {
+    position: absolute;
+    left: calc(20% + 20vw);
+    height: 29em;
+    width: 100%;
+    background: url(../src/whale.png) no-repeat 0 50% / contain;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    height: 3em;
+    width: 100%;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    background-color: #4493fb;
+    z-index: 2;
+  }
+
+  .title strong {
+    font-size: 1em;
+    display: block;
+  }
+
+  .news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 2em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    border: 1px solid #444;
+    border-right: none;
+    border-top: none;
+  }
+
+  .news-list {
+    height: 19em;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+  }
+
+  .news-list:last-child {
+    border-bottom: none;
+  }
+
+  .news-list:nth-last-child(2) {
+    border-bottom: none;
+  }
+
+  .news-anchor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1em 1em;
+  }
+
+  .news-title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .news-content {
+    justify-self: flex-end;
+    font-size: 1em;
+  }
+
+  .news-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    display: flex;
+    justify-content: center;
+    height: 7em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  h1 {
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+  }
+
+  .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 24em;
+    width: 100%;
+  }
+
+  .decoration {
+    position: absolute;
+    left: calc(20% + 20vw);
+    height: 29em;
+    width: 100%;
+    background: url(../src/whale.png) no-repeat 0 50% / contain;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    height: 3em;
+    width: 100%;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    background-color: #4493fb;
+    z-index: 2;
+  }
+
+  .title strong {
+    font-size: 1em;
+    display: block;
+  }
+
+  .news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 2em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    border: 1px solid #444;
+    border-right: none;
+    border-top: none;
+  }
+
+  .news-list {
+    height: 19em;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+  }
+
+  .news-list:last-child {
+    border-bottom: none;
+  }
+
+  .news-list:nth-last-child(2) {
+    border-bottom: none;
+  }
+
+  .news-list:nth-last-child(3) {
+    border-bottom: none;
+  }
+
+  .news-anchor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1em 1em;
+  }
+
+  .news-title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .news-content {
+    justify-self: flex-end;
+    font-size: 1em;
+  }
+
+  .news-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: '. h1 button';
+    height: 7em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+  h1 {
+    grid-area: h1;
+    justify-self: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+  }
+
+  .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 24em;
+    width: 100%;
+  }
+
+  .decoration {
+    position: absolute;
+    left: calc(20% + 20vw);
+    height: 29em;
+    width: 100%;
+    background: url(../src/whale.png) no-repeat 0 50% / contain;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    height: 3em;
+    width: 100%;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    background-color: #4493fb;
+    z-index: 2;
+  }
+
+  .title strong {
+    font-size: 1em;
+    display: inline;
+  }
+
+  .news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0 2em;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    border: 1px solid #444;
+    border-right: none;
+    border-top: none;
+  }
+
+  .news-list {
+    height: 17em;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+  }
+
+  .news-list:last-child {
+    border-bottom: none;
+  }
+
+  .news-list:nth-last-child(2) {
+    border-bottom: none;
+  }
+
+  .news-list:nth-last-child(3) {
+    border-bottom: none;
+  }
+
+  .news-anchor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1em 1em;
+  }
+
+  .news-title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .news-content {
+    justify-self: flex-end;
+    font-size: 1em;
+  }
+
+  .news-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    justify-self: end;
+    margin-right: 3vw;
+    z-index: 4;
+  }
+
+  .search {
+    background-image: url(../src/search.png);
+    width: 2em;
+    height: 2em;
+    border: 1px solid #000;
+    text-indent: -10000px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.3em;
+    cursor: pointer;
+  }
+
+  .account {
+    background-image: url(../src/user.png);
+    width: 2em;
+    height: 2em;
+    border: 1px solid #000;
+    text-indent: -10000px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.3em;
+    cursor: pointer;
+  }
+}
